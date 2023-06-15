@@ -7,13 +7,13 @@ const Portfolio = () => {
     {
       id: 1,
       src: text,
-      link: "https://sentencetranslator-tanmoy1.netlify.app/",
-      github: "https://github.com/Tam55si",
+      link: "https://sentencetranslator-tanmoy1.vercel.app/",
+      github: "https://github.com/Tam55si/sentence-modifier",
     },
-    {
-      id: 2,
-      // src: reactParallax,
-    },
+    // {
+    //   id: 2,
+    //   src: reactParallax,
+    // },
   ];
 
   return (
