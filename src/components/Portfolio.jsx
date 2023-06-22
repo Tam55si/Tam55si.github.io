@@ -1,5 +1,7 @@
 import React from 'react';
 import text from '../assets/text_utils.jpg';
+import todo from '../assets/todolist.png'
+import expense from '../assets/expensemaster.png'
 
 
 const Portfolio = () => {
@@ -10,10 +12,18 @@ const Portfolio = () => {
       link: "https://sentencetranslator-tanmoy1.vercel.app/",
       github: "https://github.com/Tam55si/sentence-modifier",
     },
-    // {
-    //   id: 2,
-    //   src: reactParallax,
-    // },
+    {
+      id: 2,
+      src: todo,
+      link: "https://todowizard.vercel.app/",
+      github: "https://github.com/Tam55si/ToDoWizard",
+    },
+    {
+      id: 3,
+      src: expense,
+      link: "https://weak-gold-monkey-sock.cyclic.app/",
+      github: "https://github.com/Tam55si/ExpenseMaster",
+    },
   ];
 
   return (
