@@ -1,7 +1,8 @@
 import React from 'react';
 import text from '../assets/text_utils.jpg';
-import todo from '../assets/todolist.png'
-import expense from '../assets/expensemaster.png'
+import todo from '../assets/todolist.png';
+import expense from '../assets/expensemaster.png';
+import joninc from '../assets/joninc.jpg'
 
 
 const Portfolio = () => {
@@ -23,6 +24,12 @@ const Portfolio = () => {
       src: expense,
       link: "https://weak-gold-monkey-sock.cyclic.app/",
       github: "https://github.com/Tam55si/ExpenseMaster",
+    },
+    {
+      id: 4,
+      src: joninc,
+      link: "https://jobinc-tanmoy.vercel.app/",
+      github: "https://github.com/Tam55si/jobINC-frontend",
     },
   ];
 
