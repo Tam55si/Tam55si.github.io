@@ -12,6 +12,7 @@ import Experience from "./components/Experience";
 import Home2 from "./components/Home2";
 import Portfolio from "./components/Portfolio";
 import Home3 from "./components/Home3";
+import Certificates from "./components/Certificates";
 // import Smooth from "./components/Smooth";
 
 
@@ -25,6 +26,7 @@ function App() {
       <About2 />
       <Experience />
       <Portfolio />
+      <Certificates/>
       <Contactme />
       <Footer />
 

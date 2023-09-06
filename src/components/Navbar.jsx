@@ -10,7 +10,8 @@ import {
   FaCommentDots,
   FaReadme,
   FaInfoCircle,
-  FaBookmark
+  FaBookmark,
+  FaCertificate
 } from 'react-icons/fa';
 
 
@@ -30,6 +31,7 @@ function Navbar() {
             <Link className='border-none bg-transparent text-white mr-4 w-full px-3 ' to="about" spy={true} smooth={true} offset={-100} duration={500}><FaInfoCircle /></Link>
             <Link className='border-none bg-transparent text-white mr-4 w-full px-3 ' to="experience" spy={true} smooth={true} offset={-100} duration={500}><FaReadme /></Link>
             <Link className='border-none bg-transparent text-white mr-4 w-full px-3 ' to="portfolio" spy={true} smooth={true} offset={-100} duration={500}><FaBookmark /></Link>
+            <Link className='border-none bg-transparent text-white mr-4 w-full px-3 ' to="certificate" spy={true} smooth={true} offset={-100} duration={500}><FaCertificate /></Link>
             <Link className='border-none bg-transparent text-white mr-4 w-full px-3 ' to="contact" spy={true} smooth={true} offset={-100} duration={500}><FaCommentDots /></Link>
           </ul>
         </div>
@@ -48,6 +50,7 @@ function Navbar() {
         <li className='border-b-2 border-zinc-300 w-full text-center'><Link className='border-none bg-transparent text-white mr-4 w-full px-3 ' to="about" spy={true} smooth={true} offset={-100} duration={500}>About Me</Link></li>
         <li className='border-b-2 border-zinc-300 w-full text-center'><Link className='border-none bg-transparent text-white mr-4 w-full px-3 ' to="experience" spy={true} smooth={true} offset={-100} duration={500}>Skills</Link></li>
         <li className='border-b-2 border-zinc-300 w-full text-center'><Link className='border-none bg-transparent text-white mr-4 w-full px-3 ' to="portfolio" spy={true} smooth={true} offset={-100} duration={500}>Projects</Link></li>
+        <li className='border-b-2 border-zinc-300 w-full text-center'><Link className='border-none bg-transparent text-white mr-4 w-full px-3 ' to="certificate" spy={true} smooth={true} offset={-100} duration={500}>Certificates</Link></li>
         <li className='border-b-2 border-zinc-300 w-full text-center'><Link className='border-none bg-transparent text-white mr-4 w-full px-3 ' to="contact" spy={true} smooth={true} offset={-100} duration={500}>Contact Me</Link></li>
         <div className='flex flex-col my-4 text-center items-center'>
           <button className='border-none bg-transparent text-white mr-4 px-8 py-3 mb-4'><FaGithub /></button>

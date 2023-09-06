@@ -12,24 +12,28 @@ const Portfolio = () => {
       src: text,
       link: "https://sentencetranslator-tanmoy1.vercel.app/",
       github: "https://github.com/Tam55si/sentence-modifier",
+      text: "Reactjs and Tailwind",
     },
     {
       id: 2,
       src: todo,
       link: "https://todowizard.vercel.app/",
       github: "https://github.com/Tam55si/ToDoWizard",
+      text: "Reactjs and Bootstrap",
     },
     {
       id: 3,
       src: expense,
       link: "https://weak-gold-monkey-sock.cyclic.app/",
       github: "https://github.com/Tam55si/ExpenseMaster",
+      text: "Reactjs, Nodejs, Express, MongoDB and Tailwind",
     },
     {
       id: 4,
       src: joninc,
       link: "https://jobinc-tanmoy.vercel.app/",
       github: "https://github.com/Tam55si/jobINC-frontend",
+      text: "Reactjs, Nodejs, Express, MongoDB and Tailwind",
     },
   ];
 
@@ -47,23 +51,28 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src, link, github }) => (
+          {portfolios.map(({ id, src, link, github, text }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt="project"
                 className="rounded-md duration-200 hover:scale-105"
               />
+              <div>
+              <p>Technology Used:</p>
+              <p>{text}</p>
+              </div>
               <div className="flex items-center justify-center">
+              
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={(e) => {
                   e.preventDefault();
-                  window.location.href = `${link}`;
+                  window.open(`${link}`, '_blank'); 
                 }}>
                   Demo
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105" onClick={(e) => {
                   e.preventDefault();
-                  window.location.href = `${github}`;
+                  window.open(`${github}`, '_blank'); 
                 }}>
                   Code
                 </button>
