@@ -11,7 +11,7 @@ import About2 from "./components/About2";
 import Experience from "./components/Experience";
 import Home2 from "./components/Home2";
 import Portfolio from "./components/Portfolio";
-import Home3 from "./components/Home3";
+// import Home3 from "./components/Home3";
 import Certificates from "./components/Certificates";
 // import Smooth from "./components/Smooth";
 
