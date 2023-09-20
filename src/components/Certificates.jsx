@@ -1,6 +1,7 @@
 import React from 'react';
 import hackathon from '../assets/hackathon.png';
 import fullstack from '../assets/full_stack_certificate.png';
+import cousera from '../assets/cousera_certificate.png';
 
 
 const Certificates = () => {
@@ -9,22 +10,20 @@ const Certificates = () => {
           id: 1,
           src: fullstack,
           link: "https://drive.google.com/file/d/1cKvm2ADag_swdUwnPxzQdal219DDduu5/view?usp=sharing",
-          github: "https://github.com/Tam55si/sentence-modifier",
           text: "Full Stack Development - Bootcamp",
         },
         {
           id: 2,
           src: hackathon,
           link: "https://drive.google.com/file/d/1BJSBM8E5UjSvYWlafHLxgjuipCXUKs1a/view?usp=sharing",
-          github: "https://github.com/Tam55si/ToDoWizard",
           text: "Full Stack Development - Hackathon",
         },
-        // {
-        //   id: 3,
-        //   src: expense,
-        //   link: "https://weak-gold-monkey-sock.cyclic.app/",
-        //   github: "https://github.com/Tam55si/ExpenseMaster",
-        // },
+        {
+          id: 3,
+          src: cousera,
+          link: "https://coursera.org/share/319da548bfb50dd15e614385ff3649a8",
+          text: "IBM Full Stack Software Developer - Cousera",
+        },
         
     ];
 
