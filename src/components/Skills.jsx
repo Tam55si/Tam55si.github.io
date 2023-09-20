@@ -5,7 +5,8 @@ import jscript from "../assets/javascript.png";
 import react from "../assets/react.png";
 import mongo from "../assets/mongo.png";
 import github from "../assets/github.png";
-import node from "../assets/node.png"
+import node from "../assets/node.png";
+
 
 function Skills() {
   return (

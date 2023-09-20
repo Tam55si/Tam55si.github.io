@@ -10,6 +10,7 @@ import github from "../assets/github.png";
 // import tailwind from "../assets/tailwind.png";
 import node from '../assets/node.png';
 import express from '../assets/express.png';
+import python from "../assets/python.png";
 
 const Experience = () => {
   const techs = [
@@ -69,6 +70,12 @@ const Experience = () => {
     },
     {
       id: 8,
+      src: python,
+      title: "Python",
+      style: "shadow-yellow-500",
+    },
+    {
+      id: 9,
       src: express,
       title: "Express",
       style: "shadow-gray-400",
